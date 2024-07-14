@@ -3,7 +3,9 @@ import { Navbar, Nav } from 'react-bootstrap';
 import LOGO from '../assets/LOGO.png';
 const Header = () => {
     return (
-        <Navbar bg="transparent"  expand="lg" fixed="top" style={{ color: '#473525',  marginRight: '80px', marginLeft: '80px'}}>
+        <Navbar className="transparent"  expand="lg" fixed="top" style={{ color: '#473525',  marginRight: '80px', marginLeft: '80px'
+            
+        }}>
             {/* Logo (replace with your actual logo) */}
             <Navbar.Brand>
                 <img src={LOGO} alt="Logo" style={{ width: '70px', height: '70px' }} />

@@ -9,6 +9,16 @@
    
 
 }
+.transparent {
+  background-color: transparent !important;
+}
+
+@media screen and (max-width: 768px) {
+ .transparent{
+    background-color: #FFF4C2 !important;
+ }
+  
+}
 @media (max-width: 768px){
   #root{
     padding-left: 40px;
